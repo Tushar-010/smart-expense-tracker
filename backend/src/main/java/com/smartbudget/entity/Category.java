@@ -10,6 +10,7 @@ public class Category {
 
     private String name;
     private String type; // INCOME or EXPENSE
+    private String description;
 	public Long getId() {
 		return id;
 	}
@@ -27,6 +28,12 @@ public class Category {
 	}
 	public void setType(String type) {
 		this.type = type;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
 	}
     
 }    
